@@ -10,7 +10,7 @@ const browserify = require('browserify');
 
 const generalFileRegex = /(\.)(.)+/gi;
 const baseDir = "./src/pages";
-const outputDir = "./assets/react";
+const outputDir = "./public/assets/react";
 const entryFile = "index.jsx";
 
 /**

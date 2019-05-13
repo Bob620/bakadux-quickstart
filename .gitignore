@@ -3,5 +3,5 @@
 bin
 node_modules
 
-assets/react
+public/assets/react
 package-lock.json
