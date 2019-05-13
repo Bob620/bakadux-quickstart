@@ -5,7 +5,7 @@
   "description": "Quickstart files for a single page app using Bakadux/React",
   "main": "",
   "scripts": {
-    "start": "npx http-server -c-1",
+    "start": "npx live-server ./public --verbose --no-browser --port=8080  --entry-file=./index.html",
     "build": "node build.js",
     "build-prod": "node build.js production",
     "test": "echo \"Error: no test specified\" && exit 1"
